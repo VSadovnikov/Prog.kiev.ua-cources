@@ -24,10 +24,21 @@ li{
 
 }
 
+.text-post-1{
+width:60%;
+}
+
+.img-post-1{
+width:40%;
+}
 
 .logo-img{
     width: 150px;
     height: 150px;
     background-repeat: no-repeat;
     
+}
+.text-post-1{
+float:left;
+border-right: 1px; solid red;
 }
