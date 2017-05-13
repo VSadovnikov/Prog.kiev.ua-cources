@@ -1,0 +1,33 @@
+li{
+    list-style: none;
+}
+
+.header-nav{
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.header-nav li{
+    float: left;
+    padding: 20px 20px;
+    margin: 2px;
+    border: 2px solid red;
+    
+}
+
+.header-nav li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: green;
+
+}
+
+
+.logo-img{
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    
+}
