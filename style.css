@@ -87,11 +87,21 @@ aside {
     width: 25%;
     display: block;
     overflow: hidden;
-    position:relative;
+    position:inherit;
+    height:auto;
+}
+
+aside li{
+padding-bottom:10px;
+}
+
+
+menu {
+    padding: 0;
 }
 
 footer{
 margin-top:20px;
-border:1px solid black;
+padding-top:10px;
 }
 
