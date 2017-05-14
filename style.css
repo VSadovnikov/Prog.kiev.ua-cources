@@ -83,7 +83,8 @@ section {
 
 aside {
     float: right;
-    padding-left: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
     width: 25%;
     display: block;
     overflow: hidden;
