@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <body>
 <header>
     <meta charset="utf-8"/>
@@ -8,7 +8,7 @@
     <div class="logo-name-block">
         <h3 class="logo-name">MAC Store</h3>
     </div>
-<a href="http://apple.com/" target="_blank"><img src="img/blog-logo.png" class="logo-img"/></a>
+    <a href="http://apple.com/" target="_blank"><img src="img/blog-logo.png" class="logo-img"/></a>
     <nav class="header-nav">
         <ul>
             <li><a href="#">Main Page</a></li>
@@ -17,12 +17,11 @@
             <li><a href="#">Apple Support</a></li>
             <li><a href="#">Contact Info</a></li>
         </ul>
-    <div class="header-contact-info">
+        <div class="header-contact-info">
             <p>Phone Number: <a href="#">+1-45-786-09-67</a></p>
             <p class="header-email">Email:<a href="">info@macstore.com</a></p>
-    </div>
+        </div>
     </nav>
-
 
 
 </header>
@@ -35,11 +34,12 @@
                 <center>Filter</center>
             </h3>
             <hr/>
-            <ul>
-                <li><a href="">Macbook Air 2016</a></li>
-                <li><a href="">Macbook 12"</a></li>
-                <li><a href="">Macbook Pro 2015 Retina</a></li>
-                <li><a href="">Macbook Pro 2016</a></li>
+            <ul class="filter">
+                <li><a href=""><img src="img/macbook-air-2016-filter.png"/>Macbook Air 2016</a></li>
+                <li><a href=""><img src="img/macbook-12-filter.png"/>Macbook 12"</a></li>
+                <li><a href=""><img src="img/macbook-pro-2015-13-retina- filter.png"/>Macbook Pro 2015 Retina</a></li>
+                <li><a href=""><img src="img/macbook-pro-2016-13'-filter.png"/>Macbook Pro 2016</a></li>
+                <hr/>
                 <h3>
                     <center>Sorting</center>
                 </h3>
@@ -51,40 +51,141 @@
                     <li>Sort by Price</li>
                     <li>Sort by Add Date</li>
                 </ul>
+                <hr/>
             </ul>
         </aside>
-        <article>
+        <article class="macbook-air-2016">
             <h2>Macbook Air 2016</h2>
             <hr/>
             <section>
-                <p>Information</p>
-                <p>Image</p>
+                <section class="info-box">
+                    <p>Thanks to compact all-flash storage in MacBook Air, there’s plenty of room for a big battery.
+                        Working together with the power-efficient fifth-generation Intel Core architecture, this battery
+                        can post some impressive numbers. MacBook Air gets up to 12 hours of battery life on a single
+                        charge. That gives you all-day power for surfing the web or watching iTunes movies. Put MacBook
+                        Air to sleep for more than 3 hours, and it enters standby mode to conserve battery life for up
+                        to 30 days.</p>
+                </section>
+                <section class="price-box">
+                    <section class="price-section">
+                        <center><a href="#" class="buy-btn">Buy now</a></center>
+                    </section>
+                    <section class="buy-section">
+                        <h4>
+                            <center>30 000</center>
+                        </h4>
+                    </section>
+                </section>
+                <section class="img-box">
+                    <img src="img/macbook-air-2016.png">
+                </section>
             </section>
         </article>
-        <article>
+        <article class="macbook-pro-2016">
             <h2>Macbook Pro 2016</h2>
             <hr/>
             <section>
-                <p>Information</p>
-                <p>Image</p>
-
+                <section class="info-box">
+                    It’s faster and more powerful than before, yet remarkably thinner and lighter. It has the brightest,
+                    most colorful Mac notebook display ever. And it introduces the Touch Bar — a Multi-Touch enabled
+                    strip of glass built into the keyboard for instant access to the tools you want, right when you want
+                    them. The new MacBook Pro is built on groundbreaking ideas. And it’s ready for yours.
+                </section>
+                <section class="price-box">
+                    <section class="price-section">
+                        <center><a href="#" class="buy-btn">Buy now</a></center>
+                    </section>
+                    <section class="buy-section">
+                        <h4>
+                            <center>30 000</center>
+                        </h4>
+                    </section>
+                </section>
+                <section class="img-box">
+                    <img src="img/macbook-pro-2016-13'.png">
+                </section>
             </section>
         </article>
-        <article>
-            <h2>Macbook Pro 2015 Retina</h2>
+        <article class="macbook-pro-2015-13">
+            <h2>Macbook Pro 2015 13" Retina</h2>
             <hr/>
             <section>
-                <p>Information</p>
-                <p>Image</p>
-
+                <section class="info-box">
+                    <p>The outside remains the same, but inside, the 2015 MacBook Pro with Retina Display feels like
+                        it's a league ahead of last year's model. Not only does the new MacBook perform better and last
+                        longer on a charge, but it also has an innovative touchpad that lets you do a lot more than just
+                        point and click. Starting at $1,299, the Pro costs a good deal more than the 13-inch Air, but
+                        those who purchase it will find this system to be worth the money.</p>
+                </section>
+                <section class="price-box">
+                    <section class="price-section">
+                        <center><a href="#" class="buy-btn">Buy now</a></center>
+                    </section>
+                    <section class="buy-section">
+                        <h4>
+                            <center>30 000</center>
+                        </h4>
+                    </section>
+                </section>
+                <section class="img-box">
+                    <img src="img/macbook-pro-2015-13-retina.png">
+                </section>
+            </section>
+        </article>
+        <article class="macbook-pro-2015-15">
+            <h2>Macbook Pro 2015 15" Retina</h2>
+            <hr/>
+            <section>
+                <section class="info-box">
+                    <p>
+                        The outside remains the same, but inside, the 2015 MacBook Pro with Retina Display feels like
+                        it's a
+                        league ahead of last year's model. Not only does the new MacBook perform better and last longer
+                        on a
+                        charge, but it also has an innovative touchpad that lets you do a lot more than just point and
+                        click. Starting at $1,299, the Pro costs a good deal more than the 13-inch Air, but those who
+                        purchase it will find this system to be worth the money.</p>
+                </section>
+                <section class="price-box">
+                    <section class="price-section">
+                        <center><a href="#" class="buy-btn">Buy now</a></center>
+                    </section>
+                    <section class="buy-section">
+                        <h4>
+                            <center>30 000</center>
+                        </h4>
+                    </section>
+                </section>
+                <section class="img-box">
+                    <img src="img/macbook-pro-15-retina.png">
+                </section>
             </section>
         </article>
         <article>
             <h2>Macbook 12"</h2>
             <hr/>
             <section>
-                <p>Information</p>
-                <p>Image</p>
+                <section class="info-box">
+                    <p>Our goal with MacBook was to do the impossible: engineer a full‑size experience into the lightest
+                        and most compact Mac notebook ever. That meant reimagining every element to make it not only
+                        lighter and thinner but also better. The result is more than just a new notebook. It’s the
+                        future of the notebook. And now, with sixth‑generation Intel processors, improved graphics
+                        performance, faster flash storage, and up to 10 hours of battery life,* MacBook is even more
+                        capable.</p>
+                </section>
+                <section class="price-box">
+                    <section class="price-section">
+                        <center><a href="#" class="buy-btn">Buy now</a></center>
+                    </section>
+                    <section class="buy-section">
+                        <h4>
+                            <center>30 000</center>
+                        </h4>
+                    </section>
+                </section>
+                <section class="img-box">
+                    <img src="img/macbook-12.png">
+                </section>
             </section>
         </article>
     </main>

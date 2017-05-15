@@ -92,9 +92,10 @@ article {
 }
 
 section {
-    background-color:#eee;
     border: 1px solid #ccc;
-    padding: 20px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+
 }
 
 aside {
@@ -107,7 +108,7 @@ aside {
     overflow: hidden;
     position:inherit;
     height:auto;
-    border: 1px solid grey;
+    border: 1px solid #ccc;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -120,14 +121,84 @@ menu {
     padding: 0;
 }
 
+.filter li{
+margin-bottom:15px;
+
+}
+
+.filter li a img{
+margin-right:10px;
+margin-bottom:-18px;
+}
+
+
+
+
+.info-box{
+border: 1px solid #ccc;
+width:900px;
+float:right;
+}
+
+.price-box{
+border: 1px solid #ccc;
+width:900px;
+float:right;
+margin-top:10px;
+}
+
+.img-box{
+border: 1px solid #ccc;
+width:340px;
+}
+
+.img-box img{
+margin-left:25px;
+}
+
+.price-section{
+width:200px;
+float:right;
+margin-top:20px;
+background-color:green;
+
+}
+
+.price-section a{
+text-align:center;
+color:white;
+text-style:bold;
+font-size:20px;
+text-decoration:none;
+margin-bottom:5px;
+}
+
+.buy-section{
+width:240px;
+background-color:#696b70;
+margin-left:400px;
+}
+
+.price-iten{
+}
+.buy-btn{
+color: #696b70;
+}
+
+.buy-btn:hover{
+color: yellow;
+}
 
 
 footer{
 margin-top:20px;
 padding-top:10px;
+padding-bottom:10px;
+border: 1px solid grey;
+border-radius: 10px 10px 10px 10px;
 }
 
-content{
 
-}
+
+
 
