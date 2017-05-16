@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494868804816</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish">
+      <created>1494918866846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1494918866846</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +291,8 @@
     <MESSAGE value="header contact info" />
     <MESSAGE value="header logo fix" />
     <MESSAGE value="manage css in product afilter list" />
-    <option name="LAST_COMMIT_MESSAGE" value="manage css in product afilter list" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
