@@ -159,7 +159,7 @@ margin-left:25px;
 .price-section{
 width:200px;
 float:right;
-margin-top:20px;
+margin-top:22px;
 background-color:green;
 
 }
@@ -174,13 +174,18 @@ margin-bottom:5px;
 }
 
 .buy-section{
-width:240px;
-background-color:#696b70;
-margin-left:400px;
+width:150px;
+background-color:#d1cb3e;
+margin-left:500px;
+border-radius: 10px 10px 10px 10px;
 }
 
-.price-iten{
+.buy-section h4{
+font-size:18px;
+color:white;
+padding:10px;
 }
+
 .buy-btn{
 color: #696b70;
 }
