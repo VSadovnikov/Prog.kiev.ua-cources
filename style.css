@@ -56,6 +56,8 @@ margin-left:140px;
     
 }
 
+
+
 .header-nav li a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,12 +89,11 @@ article {
     margin-top: 30px;
     padding: 0 15px;
     width: 70%;
-    overflow: hidden;
+
 }
 
 section {
-    border: 1px solid #ccc;
-    border-radius: 5px 5px 5px 5px;
+
     padding: 10px;
 
 
@@ -105,8 +106,9 @@ aside {
     margin-top:30px;
     width: 25%;
     display: block;
-    overflow: hidden;
-    position:inherit;
+    position:absolute;
+    left:1350px;
+    top:219px;
     height:auto;
     border: 1px solid #ccc;
     border-radius: 10px 10px 10px 10px;
@@ -132,23 +134,39 @@ margin-right:10px;
 margin-bottom:-18px;
 }
 
+.product-info{
+height:auto;
+width:930px;
+float:right;
+position:absolute;
+left:400px;
+right:20px;
+}
+
+
 .info-box{
 border: 1px solid #ccc;
-width:900px;
+    border-radius: 10px 10px 10px 10px;
+width:910px;
 float:right;
-position:static;
+margin-left:20px;
 }
 
 .price-box{
 border: 1px solid #ccc;
-width:900px;
+    border-radius: 10px 10px 10px 10px;
+width:910px;
 float:right;
 margin-top:10px;
+
 }
 
 .img-box{
 border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
 width:340px;
+position:relative;
+margin-right:20px;
 
 }
 
@@ -156,12 +174,19 @@ width:340px;
 margin-left:25px;
 }
 
+.product-title{
+position:absolute;
+top:10px;
+}
+
 .price-section{
 width:200px;
 float:right;
-margin-top:22px;
+margin-top:3px;
 background-color:green;
-
+border: 1px solid #ccc;
+border-radius: 10px 10px 10px 10px;
+padding:20px;
 }
 
 .price-section a{
@@ -174,16 +199,20 @@ margin-bottom:5px;
 }
 
 .buy-section{
-width:150px;
+width:180px;
+height:auto;
 background-color:#d1cb3e;
-margin-left:500px;
+margin-left:480px;
+margin-top:5px;
+border: 1px solid #ccc;
 border-radius: 10px 10px 10px 10px;
 }
 
-.buy-section h4{
+.buy-section h3{
 font-size:18px;
 color:white;
-padding:10px;
+padding:-10px;
+height:-10px;
 }
 
 .buy-btn{
