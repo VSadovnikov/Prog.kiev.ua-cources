@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51275789-ee4f-4b37-b23e-6504b6bf5c6d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macbook-12-details.html" afterPath="$PROJECT_DIR$/macbook-12-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macbook-air-details.html" afterPath="$PROJECT_DIR$/macbook-air-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macbook-pro-2015-13-details.html" afterPath="$PROJECT_DIR$/macbook-pro-2015-13-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macbook-pro-2015-15-details.html" afterPath="$PROJECT_DIR$/macbook-pro-2015-15-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macbook-pro-2016-13-details.html" afterPath="$PROJECT_DIR$/macbook-pro-2016-13-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -352,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495451534013</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="home work 2. Animate menu, tech spec, each page for products (without current spec).">
+      <created>1495457507827</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1495457507827</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -415,7 +415,8 @@
     <MESSAGE value="finish" />
     <MESSAGE value="block position" />
     <MESSAGE value="dsd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dsd" />
+    <MESSAGE value="home work 2. Animate menu, tech spec, each page for products (without current spec)." />
+    <option name="LAST_COMMIT_MESSAGE" value="home work 2. Animate menu, tech spec, each page for products (without current spec)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
