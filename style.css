@@ -1,14 +1,23 @@
 body{
 background:#e1e5ed;
 margin:10px;
+font-family:Arial;
 
+}
+
+a {
+    text-decoration:none;
 }
 
 main{
 height:auto;
 display:block;
 overflow:hidden;
+}
 
+content {
+border: 2px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
 }
 
 li{
@@ -141,6 +150,7 @@ float:right;
 position:absolute;
 left:400px;
 right:20px;
+margin-top:-10px;
 }
 
 
@@ -198,40 +208,82 @@ text-decoration:none;
 margin-bottom:5px;
 }
 
-.buy-section{
-width:180px;
-height:auto;
-background-color:#d1cb3e;
-margin-left:480px;
-margin-top:5px;
-border: 1px solid #ccc;
-border-radius: 10px 10px 10px 10px;
+.buy-section {
+    width:180px;
+    height:auto;
+    background-color:#d1cb3e;
+    margin-left:480px;
+    margin-top:5px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
 }
 
-.buy-section h3{
-font-size:18px;
-color:white;
-padding:-10px;
-height:-10px;
+.buy-section h3 {
+    font-size:18px;
+    color:white;
+    padding:-10px;
+    height:-10px;
 }
 
 .buy-btn{
-color: #696b70;
+    color: #696b70;
 }
 
 .buy-btn:hover{
-color: yellow;
+    color: yellow;
 }
-
 
 footer{
-margin-top:20px;
-padding-top:10px;
-padding-bottom:10px;
-border: 1px solid grey;
-border-radius: 10px 10px 10px 10px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    text-align:center;
 }
 
+.tech-spec {
+    height: auto;
+    width:97%;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    margin-top:10px;
+}
+
+.tech-spec-table {
+    width:100%;
+    text-align:center;
+}
+
+.review-form-table {
+    width:100%;
+    text-align:right;
+    padding-top:20px;
+}
+
+.review-form-table tr {
+    width:100%;
+    text-align:right;
+    padding:10px;
+}
+
+.review-form-table td {
+    padding:15px;
+}
+
+.review-form-table label {
+    font-size:18px;
+    font-family:Arial;
+}
+
+
+.send-review-button {
+    font-size:25px;
+    padding:5px;
+    margin-top:10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+}
 
 
 
