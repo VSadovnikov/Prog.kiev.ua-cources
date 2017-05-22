@@ -9,6 +9,12 @@ a {
     text-decoration:none;
 }
 
+input, textarea {
+    border: 2px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    padding:5px;
+}
+
 main{
 height:auto;
 display:block;
@@ -16,7 +22,7 @@ overflow:hidden;
 }
 
 content {
-border: 2px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -25,12 +31,13 @@ li{
 }
 
 /*Header style start*/
-.header-nav{
+.header-nav {
     float: right;
     margin-right: 10px;
     margin-top: 30px;
 }
-.logo-name{
+
+.logo-name {
 width:120px;
 float:left;
 padding-top:50px;
@@ -39,11 +46,10 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 margin-bottom:30px;
 position:inherit;
-
 }
 
-.logo-name-block h3{
-margin-left:140px;
+.logo-name-block h3 {
+    margin-left:140px;
 }
 .logo-img{
     width: 150px;
@@ -53,7 +59,6 @@ margin-left:140px;
     margin-left:-250px;
 
 }
-
 
 .header-nav li{
     float: left;
@@ -65,13 +70,21 @@ margin-left:140px;
     
 }
 
-
-
 .header-nav li a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #dee0e5;
+
+}
+
+.header-nav li:hover {
+   background: #bfd8a2;
+
+}
+
+.header-nav li a:hover {
+    color: black;
 
 }
 
@@ -286,5 +299,46 @@ footer{
 }
 
 
+.admin-panel{
+    width:100%;
+
+}
+
+.admin-form-table {
+    width:100%;
+    text-align:center;
+    padding-top:20px;
+}
+
+.admin-form-table tr {
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+
+.admin-form-table td {
+    padding:15px;
+}
+
+.admin-form-table label {
+    font-size:18px;
+    font-family:Arial;
+}
+
+.admin-panel-add-button {
+    font-size:25px;
+    padding:10px;
+    color: #dee0e5;
+    margin-top:10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #bccbe2;
+
+}
+
+.admin-panel-add-button:hover {
+    background-color: #7ce504;
+
+}
 
 
