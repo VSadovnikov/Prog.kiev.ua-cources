@@ -18,6 +18,8 @@ main {
     height:auto;
     display:block;
     overflow:hidden;
+    max-width:1845px;
+    min-width:1845px;
 }
 
 content {
@@ -34,6 +36,8 @@ li {
     float: right;
     margin-right: 10px;
     margin-top: 30px;
+    max-width:1200px;
+    min-width:200px;
 }
 
 .logo-name {
@@ -150,12 +154,51 @@ section {
     padding: 10px;
 }
 
+.reg-button-block {
+    float: right;
+    margin-right:-12px;
+    max-width:1200px;
+    min-width:200px;
+}
+
+
+.reg-button-list {
+float:right;
+width:700px;
+}
+
+
+.reg-button-list-item {
+    float: left;
+    padding: 10px 10px;
+    border: 2px solid #dee0e5;
+    border-radius: 10px 10px 10px 10px;
+    background: green;
+    color:white;
+}
+
+.reg-button-list-item:hover {
+    background:yellow;
+}
+
+.reg-button-list-item a:hover {
+    color:grey;
+}
+
+.reg-button-list-item  a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #dee0e5;
+}
 aside {
     float: right;
     padding-left: 8px;
     padding-right: 8px;
     margin-top:30px;
     width: 25%;
+    max-width:600px;
+    min-width:100px;
     display: block;
     position:absolute;
     left:1350px;
@@ -296,6 +339,11 @@ footer {
     width: 99%;
 }
 
+.tech-spec-block {
+    max-width:1200px;
+    min-width:200px;
+}
+
 .tech-spec-title {
     width:98%;
     border: 1px solid #ccc;
@@ -307,7 +355,7 @@ footer {
 
 .tech-spec {
     height: auto;
-    width:98%;
+    width:100%;
     border: 1px solid #ccc;
     border-radius: 10px 10px 10px 10px;
     margin-top:10px;
@@ -419,6 +467,7 @@ footer {
     top:425px;
 }
 
+/*share links*/
 .fa {
     padding: 15px;
     font-size: 12px;
@@ -467,6 +516,8 @@ footer {
   background: #125688;
   color: white;
 }
+
+/*share links end*/
 
 .contact-info-main {
     height: auto;
