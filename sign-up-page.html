@@ -26,43 +26,51 @@
             <li><a href="contact-info.html">Contact Info</a></li>
             <li><a href="admin.html">Admin panel</a></li>
         </ul>
-        <section>
-            <ul class="reg-button-block">
-                <li class="reg-button-list-item"><a href="sign-in-page.html">Sign In</a></li>
-                <li class="reg-button-list-item"><a href="sign-up-page.html">Sign Up</a></li>
-            </ul>
-        </section>
+
     </nav>
+    <section>
+        <ul class="reg-button-block">
+            <li class="reg-button-list-item"><a href="sign-in-page.html">Sign In</a></li>
+            <li class="reg-button-list-item"><a href="sign-up-page.html">Sign Up</a></li>
+        </ul>
+    </section>
 </header>
 <hr/>
 <main>
     <article class="admin-panel">
         <h3>
-            <center>Add Pruduct Review</center>
+            <center>Register new buyer</center>
         </h3>
         <hr/>
         <form>
             <table class="admin-form-table">
                 <tr>
-                    <td><label for="title">Title</label></td>
-                    <td><input type="text" id="title" placeholder="First name" required></td>
+                    <td><label for="firstName">First Name</label></td>
+                    <td><input type="text" id="firstName" placeholder="First name" required></td>
                 </tr>
                 <tr>
-                    <td><label for="price">Price (uah.)</label></td>
-                    <td><input type="number" id="price" min="0" value="1000" required></td>
+                    <td><label for="lastName">Last Name</label></td>
+                    <td><input type="text" id="lastName"></td>
                 </tr>
                 <tr>
-                    <td><label for="desc">Description</label></td>
-                    <td><textarea name="desc" id="desc" cols="30" rows="10"
-                                  placeholder="Write some product description"></textarea></td>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" required></td>
                 </tr>
                 <tr>
-                    <td><label for="pr-image">Product image</label></td>
-                    <td><input type="file" id="pr-image" accept=".png,.jpeg"></td>
+                    <td><label for="phone">Phone number</label></td>
+                    <td><input type="tel" id="phone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="login">Login</label></td>
+                    <td><input name="login" id="Login" placeholder="write you login name"></input></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password"></td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <button type="submit" class="admin-panel-add-button"><a href="">Add New Product Item</a>
+                        <button type="submit" class="admin-panel-add-button"><a href="">Sign Up</a>
                         </button>
                     </td>
                 </tr>

@@ -1,7 +1,7 @@
 body {
     background:#e1e5ed;
-    margin:10px;
     font-family:Arial;
+    max-width:1800px;
 }
 
 a {
@@ -18,8 +18,8 @@ main {
     height:auto;
     display:block;
     overflow:hidden;
-    max-width:1845px;
-    min-width:1845px;
+    max-width:1800px;
+    min-width:1800px;
 }
 
 content {
@@ -151,12 +151,13 @@ article {
 }
 
 section {
-    padding: 10px;
+    padding: 5px;
 }
 
 .reg-button-block {
     float: right;
-    margin-right:-12px;
+    margin-top:-80px;
+    margin-right:-30px;
     max-width:1200px;
     min-width:200px;
 }
@@ -170,26 +171,25 @@ width:700px;
 
 .reg-button-list-item {
     float: left;
-    padding: 10px 10px;
-    border: 2px solid #dee0e5;
+    padding: 5px 5px;
+    margin-right:5px;
+    border: 2px solid grey;
     border-radius: 10px 10px 10px 10px;
-    background: green;
-    color:white;
+
 }
 
 .reg-button-list-item:hover {
-    background:yellow;
+    background:green;
 }
 
 .reg-button-list-item a:hover {
-    color:grey;
+    color:white;
 }
 
 .reg-button-list-item  a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #dee0e5;
 }
 aside {
     float: right;
@@ -419,9 +419,9 @@ footer {
 }
 
 .admin-form-table {
-    width:100%;
-    text-align:center;
+align:center;
     padding-top:20px;
+    margin-left:700px;
 }
 
 .admin-form-table tr {
@@ -476,6 +476,8 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    float:right;
+    margin:2px;
 }
 
 
@@ -528,6 +530,85 @@ footer {
     padding:10px;
 }
 
+.sort-form {
+    margin-left:145px;
+}
+
+.sort-table {
+    float:none;
+    align:center;
+}
+
+.option-list-item {
+    lis-decoration:none;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    padding:3px;
+}
+
+.sorting-selection {
+    padding:3px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    background:#e1e5ed;
+}
+
+.sorting-selection:hover {
+    background:#afd6b3;
+}
+
+
+.admin-table-product-list{
+        padding:10px;
+        text-align:center;
+        width:98%
+}
+
+.admin-table-product-list, .admin-table-product-list td {
+        border:1px solid black;
+
+}
+
+.admin-table-product-list-heading-items {
+    font-size:20px;
+    font-weight:bold;
+    border:1px solid black;
+}
+
+.admin-table-product-list-button {
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.admin-table-product-list-button a:hover {
+    color:white;
+}
+
+.admin-table-product-list-button:hover {
+    background:#afd6b3;
+    color:white;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.pagination {
+    display: inline-block;
+    padding-top:5px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 
 
